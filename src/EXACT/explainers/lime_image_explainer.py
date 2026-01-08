@@ -3,9 +3,7 @@ from lime import lime_image
 from skimage.segmentation import mark_boundaries
 from PIL import Image
 
-
-
-class LimeImageExplainer:
+class LimeExplainer_image:
     """
     LIME Image Explainer for Exact Library
     Works with Pytorch and Tensorflow
